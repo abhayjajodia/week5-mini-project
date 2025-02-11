@@ -27,6 +27,7 @@ export function GameCard({ title, image, genre, rating, price }: GameCardProps) 
               }`}
             />
           ))}
+          <Star/>
         </div>
         <div className="flex justify-between items-center">
           <span className="text-white font-bold">{price}</span>
